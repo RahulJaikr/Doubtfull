@@ -12,6 +12,11 @@ public class Locators
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/");
+		
+		System.out.println("Im in a gitHub project ");
 	}
-
+ public void Test()
+ {
+	 System.out.println("im very laxy person");
+ }
 }
